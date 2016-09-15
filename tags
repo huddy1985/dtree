@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g$/;"	m
+Convert	draw.cpp	/^void Convert(DNode* &dnode, Node* node)$/;"	f
+Copy	draw.cpp	/^Node* Copy(Node* root)$/;"	f
+Create	draw.cpp	/^Node* Create(Node* root, int data)$/;"	f
+DNode	draw.h	/^struct DNode$/;"	s
+DNode	draw.h	/^typedef struct DNode DNode;$/;"	t	typeref:struct:DNode
+LEAF_MARGIN	config.h	6;"	d
+MAX_NODE	config.h	4;"	d
+Node	draw.h	/^struct Node$/;"	s
+Node	draw.h	/^typedef struct Node Node;$/;"	t	typeref:struct:Node
+OBJS	Makefile	/^OBJS = $(patsubst %.cpp, %.o, $(SRCS))$/;"	m
+PROJ	Makefile	/^PROJ = dtree $/;"	m
+SRCS	Makefile	/^SRCS = $(wildcard *.cpp)$/;"	m
+Walk	draw.cpp	/^void Walk(DNode* root)$/;"	f
+Walk	draw.cpp	/^void Walk(Node* root)$/;"	f
+__CONFIG__H__	config.h	2;"	d
+__DRAW__H__	draw.h	2;"	d
+__PTREE__H__	drawNode.h	2;"	d
+convert	draw.cpp	/^static void convert(DNode*& dnode, int index, Node* node)$/;"	f	file:
+data	draw.h	/^	int data;$/;"	m	struct:DNode
+data	draw.h	/^	int data;$/;"	m	struct:Node
+draw	draw.cpp	/^void draw(Node* root)$/;"	f
+drawNode	drawNode.cpp	/^void drawNode(int index, int data)$/;"	f
+drawTree	draw.cpp	/^static void drawTree(DNode* root)$/;"	f	file:
+getBaseCoord	drawNode.cpp	/^float getBaseCoord(int index)$/;"	f
+getBaseIndex	drawNode.cpp	/^int getBaseIndex(int index)$/;"	f
+getHeight	drawNode.cpp	/^static int getHeight(int level)$/;"	f	file:
+getLevel	drawNode.cpp	/^static int getLevel(int index)$/;"	f	file:
+index	draw.h	/^	int index;$/;"	m	struct:DNode
+isOnLeft	drawNode.cpp	/^static bool isOnLeft(int index)$/;"	f	file:
+left	draw.h	/^	DNode* left;$/;"	m	struct:DNode
+left	draw.h	/^	Node* left;$/;"	m	struct:Node
+main	main.cpp	/^int main()$/;"	f
+right	draw.h	/^	DNode* right;$/;"	m	struct:DNode
+right	draw.h	/^	Node* right;$/;"	m	struct:Node
+simple_pow	drawNode.cpp	/^static float simple_pow(float e, int n)$/;"	f	file:
